@@ -6,5 +6,8 @@ yhteys = mysql.connector.connect(
     database='airports_db',
     user='root',
     password="301105"
-    
 )
+def hae_lentoaseman_icao(koodi):
+    sql=f"select airport.name, airport.municipality from airport where airport.gps_code='{koodi}'"
+    print(sql)
+    
