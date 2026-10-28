@@ -1,0 +1,66 @@
+body {
+color: black;
+}
+.intro{
+    display: flex;
+    border-width: 5cm;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    padding: 1cm;
+    background-color: darkorange;
+
+}
+.intro h1 {
+    
+    color: white;
+    border-width: 5cm;
+    text-align: center;
+    padding: 10px;
+    background-color: darkorange;
+    margin: 0;
+
+}
+.intro img {
+    max-width: 150px;
+    height: auto;
+    text-align: left;
+    position:absolute;
+    left: 5px;
+   
+}
+yritys {
+ text-align: center;
+}
+.Napit{
+text-align: right;
+color: purple;
+margin-right: 20px;
+
+
+}
+.logo {
+width: 5px;
+height: 5px;
+border-color: white;
+border-radius: 15px;
+border: 2px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.kuva img{
+    margin: auto;
+    width: 50%;
+    height: 55%;
+    position: absolute;
+    background-position: middle;
+    padding-left: 350px;
+    padding-top: 65px;
+}
+.Teksti {
+    text-align: bottom;
+    
+}
