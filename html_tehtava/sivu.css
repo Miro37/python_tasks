@@ -1,21 +1,25 @@
 body {
 color: black;
+font-family: monospace;
+font-size: larger;
 }
 .intro{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr; 
+    align-items: center;
     border-width: 5cm;
     text-align: center;
     align-items: center;
-    justify-content: center;
     position:relative;
-    padding: 1cm;
+    padding: 1cm 10px;
     background-color: darkorange;
+    
 
 }
 .intro h1 {
     
-    color: white;
-    border-width: 5cm;
+    color: black;
+    
     text-align: center;
     padding: 10px;
     background-color: darkorange;
@@ -25,18 +29,30 @@ color: black;
 .intro img {
     max-width: 150px;
     height: auto;
-    text-align: left;
-    position:absolute;
-    left: 5px;
+    margin-left: 1px;
+   
+   
    
 }
-yritys {
- text-align: center;
+.otsikko h2 {
+    font-size: 50px;
+
 }
-.Napit{
+
+.Napit a{
 text-align: right;
-color: purple;
-margin-right: 20px;
+position: relative;
+margin-right: 10px;
+padding: 15px;
+background-color:goldenrod;
+border-color: darkorange;
+text-decoration: none;
+border-top: 1px solid #ffcc66;
+border-left: 1px solid #ffcc66;
+border-right: 2px solid #996600;
+border-bottom: 2px solid #996600;
+color: black;
+
 
 
 }
@@ -54,8 +70,7 @@ body {
 .kuva img{
     margin: auto;
     width: 50%;
-    height: 55%;
-    position: absolute;
+    height: 50%;
     background-position: middle;
     padding-left: 350px;
     padding-top: 65px;
@@ -63,4 +78,14 @@ body {
 .Teksti {
     text-align: bottom;
     
+    
+}
+.otsikko {
+    text-align: center;
+    font-size: 60px;
+   
+}
+.kuva p {
+clear: both;
+text-align: center;
 }

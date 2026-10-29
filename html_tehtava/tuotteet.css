@@ -1,0 +1,139 @@
+body {
+color: black;
+font-family: monospace;
+font-size: larger;
+}
+.intro{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr; 
+    align-items: center;
+    border-width: 5cm;
+    text-align: center;
+    align-items: center;
+    position:relative;
+    padding: 1cm 10px;
+    background-color: darkorange;
+    
+
+}
+
+.intro h1 {
+    
+    color: black;
+    
+    text-align: center;
+    padding: 10px;
+    background-color: darkorange;
+    margin: 0;
+
+  
+
+}
+.intro img {
+    max-width: 150px;
+    height: auto;
+    margin-left: 1px;
+   
+   
+   
+}
+
+.Napit a{
+text-align: right;
+position: relative;
+margin-right: 10px;
+padding: 15px;
+background-color:goldenrod;
+border-color: darkorange;
+text-decoration: none;
+border-top: 1px solid #ffcc66;
+border-left: 1px solid #ffcc66;
+border-right: 2px solid #996600;
+border-bottom: 2px solid #996600;
+color: black;
+
+
+
+}
+
+.otsikko h2 {
+    font-size: 50px;
+
+}
+
+
+.logo {
+width: 5px;
+height: 5px;
+border-color: white;
+border-radius: 15px;
+border: 2px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.kuva img{
+    margin: auto;
+    width: 50%;
+    height: 55%;
+    background-position: middle;
+    padding-left: 350px;
+    padding-top: 65px;
+}
+.Teksti {
+    text-align: bottom;
+   
+    
+    
+}
+.otsikko {
+  
+    text-align: center;
+    font-size: 60px;
+}
+.kortit {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+   
+    
+   
+}
+   
+.kortit .tuote1 {
+box-shadow: 0 4px 8px 0;
+max-width: 400px;
+text-align: left;
+padding: 10px;
+background-color: darkorange;
+
+
+
+}
+.tuote1 img{
+    height: 100px;
+    width: 150px;
+}
+.kortit .tuote2 {
+box-shadow: 0 4px 8px 0;
+max-width: 200px;
+text-align: auto;
+padding: 10px;
+background-color: darkorange;
+}
+.tuote2 img{
+    height: 100px;
+    width: 150px;
+}
+.kortit .tuote3 {
+box-shadow: 0 4px 8px 0;
+max-width: 200px;
+text-align: left;
+padding: 10px;
+background-color: darkorange;
+}
+.tuote3 img {
+    height: 100px;
+    width: 150px;
+}
