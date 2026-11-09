@@ -1,4 +1,3 @@
-
 class Auto:
     def __init__(self,rekisterinumero,huippunopeus):
         self.rekisterinumero=rekisterinumero
