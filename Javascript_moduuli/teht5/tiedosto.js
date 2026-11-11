@@ -1,11 +1,12 @@
 vuosi=parseInt(prompt("Anna vuosi: "))
-if (vuosi /4) {
+if (vuosi % 4 ==0) {
     document.getElementById("vastaus").innerHTML="Vuosi " + vuosi + " on karkausvuosi"
 }
-else if (vuosi / 400) {
+
+else if (vuosi % 400 ===0) {
     document.getElementById("vastaus").innerHTML="Vuosi " + vuosi + " on karkausvuosi"
 }
 else {
-    document.getElementById("vastaus")=innerHTML="Vuosi " + vuosi + " ei ole karkausvuosi"
+    document.getElementById("vastaus").innerHTML="Vuosi " + vuosi + " ei ole karkausvuosi"
 }
 
