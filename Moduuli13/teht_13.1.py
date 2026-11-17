@@ -6,16 +6,16 @@ def alkuluku():
     jako=0
     luku=int(luku_str)
     if luku <=1:
-        return(f"Luku {luku} ei ole alkuluku")
+        return(f'Number: {luku}, "isPrime" :True')
     if luku == 2:
-        return(f"Luku {luku}  ei ole alkuluku")
+        return(f'Number: {luku},  "isPrime" :False')
     for i in range(2, luku,):
         if luku % i == 0:
             jako +=1
         if jako ==0:
-            return(f"Luku {luku} on alkuluku")
+            return(f'Number: {luku}, "isPrime" :True')
         else:
-            return(f"Luku {luku} ei ole alkuluku")
+            return(f'Number: {luku},  "isPrime" :False')
   
 
 if __name__=='__main__':
